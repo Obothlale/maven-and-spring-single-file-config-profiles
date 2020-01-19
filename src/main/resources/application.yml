@@ -1,0 +1,24 @@
+spring:
+     profiles: dev
+
+message: this is dev
+
+---
+
+spring:
+  profiles: sit
+
+message: this is sit
+---
+
+spring:
+  profiles: uat
+
+message: this is uat
+
+---
+
+spring:
+  profiles: prod
+
+message: this is prod
